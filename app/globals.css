@@ -33,16 +33,16 @@ body {
 /* Scrollbar Tailwind-compatible */
 .scrollbox::-webkit-scrollbar {
   visibility: hidden;
-  width: 6px;
+  width: 8px;
 }
 
 .scrollbox:hover::-webkit-scrollbar {
   visibility: visible;
-  width: 6px;
+  width: 8px;
 }
 
 .scrollbox:hover::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 221, 85, 0.7);
   border-radius: 9999px;
 }
 
@@ -51,7 +51,7 @@ body {
     width: 8px;
   }
   .scrollbox::-webkit-scrollbar-thumb {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 221, 85, 0.7);
     border-radius: 9999px;
   }
 }
