@@ -15,20 +15,21 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <main className="flex-1  flex items-center justify-center">
-        <section className="flex flex-col md:flex-row items-center justify-between px-8 lg:px-20  gap-12">
+      <main className="flex-1 flex items-center justify-center mt-12 mb-20">
+        <section className="flex flex-col items-center justify-center px-6 sm:px-10 lg:px-20 gap-12 max-w-6xl w-full mx-auto text-center">
           {/* Left Side (Text) */}
           <div className="flex-1 flex flex-col items-center justify-center">
-            <h2 className="text-5xl md:text-7xl font-extrabold text-black leading-snug text-center">
+            <h2 className="text-6xl font-extrabold text-black leading-snug">
               Hello,
               <br /> I&apos;m Hussein
             </h2>
             <HeroText />
 
-            <div className="flex flex-wrap gap-6 mt-8">
+            {/* Buttons */}
+            <div className="flex flex-wrap justify-center gap-6 mt-8">
               <Link
                 href="/contact"
-                className="bg-black text-white px-6 py-3 rounded-lg font-bold text-xl 
+                className="bg-black text-white px-6 py-3 rounded-lg font-bold text-lg sm:text-xl 
                 shadow-[6px_6px_0px_white] hover:bg-white hover:text-black hover:shadow-[6px_6px_0px_black]
                 border-2 border-black hover:border-white
                 transition duration-300 ease-in-out"
@@ -39,19 +40,22 @@ export default function Home() {
               <a
                 href="/Hussein ElSaeid Cv.pdf"
                 download
-                className="bg-black text-white px-6 py-3 rounded-lg font-bold text-xl
+                className="bg-black text-white px-6 py-3 rounded-lg font-bold text-lg sm:text-xl
                 shadow-[6px_6px_0px_white] hover:bg-white hover:text-black hover:shadow-[6px_6px_0px_black] 
+                border-2 border-black hover:border-white
                 transition duration-300 ease-in-out"
               >
                 Download CV
               </a>
             </div>
-            <div className="mt-8 flex flex-wrap gap-4">
+
+            {/* Social Links */}
+            <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
                 href="https://www.linkedin.com/in/hussein-elsaeid-445032238/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" text-3x1 flex items-center flex-col justify-center bg-black text-white px-3 py-3 rounded-lg shadow-[4px_4px_0px_white]
+                className="text-2xl sm:text-3xl flex items-center justify-center bg-black text-white w-12 h-12 rounded-lg shadow-[4px_4px_0px_white]
               hover:bg-white hover:text-black hover:shadow-[6px_6px_0px_black] 
                 transition duration-300 ease-in-out"
               >
@@ -61,7 +65,7 @@ export default function Home() {
                 href="https://github.com/HusseinSaeid"
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" text-3x1 flex items-center justify-center bg-black text-white px-3 py-3 rounded-lg shadow-[4px_4px_0px_white]
+                className="text-2xl sm:text-3xl flex items-center justify-center bg-black text-white w-12 h-12 rounded-lg shadow-[4px_4px_0px_white]
               hover:bg-white hover:text-black hover:shadow-[6px_6px_0px_black] 
                 transition duration-300 ease-in-out"
               >
@@ -71,7 +75,7 @@ export default function Home() {
                 href="https://www.upwork.com/freelancers/~01f2c2e3af3fc6dd96"
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" text-3x1 flex items-center justify-center bg-black text-white px-3 py-3 rounded-lg shadow-[4px_4px_0px_white]
+                className="text-2xl sm:text-3xl flex items-center justify-center bg-black text-white w-12 h-12 rounded-lg shadow-[4px_4px_0px_white]
               hover:bg-white hover:text-black hover:shadow-[6px_6px_0px_black] 
                 transition duration-300 ease-in-out"
               >
