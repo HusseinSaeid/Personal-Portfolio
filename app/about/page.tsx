@@ -62,7 +62,7 @@ export default function About() {
         <div className="relative shadow-[6px_6px_0px_white] bg-black rounded-2xl overflow-hidden h-full">
           <div className=" max-h-[60vh] overflow-y-auto scrollbox p-6">
             <h2 className="text-[#FFDD55] font-extrabold text-center text-2xl md:text-3xl mb-4 tracking-tight">
-              Skills
+              My Skills
             </h2>
             <div className="grid grid-cols-4 gap-3 place-items-center text-5xl text-white">
               <IoLogoHtml5 className="hover:text-[#FFDD55] hover:scale-115 transition-transform duration-300" />
@@ -86,17 +86,16 @@ export default function About() {
         <div className="relative shadow-[6px_6px_0px_white] bg-black rounded-2xl overflow-hidden h-full">
           <div className="p-6 max-h-[60vh] overflow-y-auto scrollbox">
             <h2 className="text-[#FFDD55] font-extrabold text-center text-2xl md:text-3xl mb-4 tracking-tight">
-              Vision
+              My Vision
             </h2>
             <p className="text-white/90 leading-relaxed">
-              My vision is to craft user-focused, clean, and highly interactive
-              web experiences that truly make a difference in people’s lives. I
-              aim to leverage modern technologies like React, Next.js, and
-              Tailwind CSS to build applications that are not only visually
-              appealing but also fast, accessible, and scalable. I continuously
-              seek to learn, innovate, and push the boundaries of web
-              development, turning ideas into impactful products that users love
-              and rely on.
+              Is to craft user-focused, clean, and highly interactive web
+              experiences that truly make a difference in people’s lives. I aim
+              to leverage modern technologies like React, Next.js, and Tailwind
+              CSS to build applications that are not only visually appealing but
+              also fast, accessible, and scalable. I continuously seek to learn,
+              innovate, and push the boundaries of web development, turning
+              ideas into impactful products that users love and rely on.
             </p>
           </div>
         </div>

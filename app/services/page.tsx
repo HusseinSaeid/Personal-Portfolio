@@ -8,8 +8,10 @@ export default function Services() {
         <Navbar />
       </header>
       <main>
-        <div className="flex flex-col xl:flex-row items-center justify-center gap-4 xl:gap-64 mt-24">
-          <h1 className="text-4xl font-bold">Lets work together</h1>
+        <div className="flex flex-col xl:flex-row items-center justify-center gap-4 xl:gap-64 mt-20">
+          <h1 className="text-2xl xl:text-4xl font-extrabold">
+            Transforming Your Vision To <br /> Powerful Web Solutions
+          </h1>
           <Link
             href="/contact"
             className="bg-black text-white px-6 py-3 rounded-lg font-bold text-xl 
