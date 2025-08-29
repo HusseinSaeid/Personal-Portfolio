@@ -58,16 +58,6 @@ export default function Navbar() {
 
         <li>
           <Link
-            href="/projects"
-            className={`hover:text-[#FFDD55] transition ${
-              pathname === "/projects" ? "text-[#FFDD55]" : ""
-            }`}
-          >
-            Projects
-          </Link>
-        </li>
-        <li>
-          <Link
             href="/contact"
             className={`hover:text-[#FFDD55] transition ${
               pathname === "/contact" ? "text-[#FFDD55]" : ""
@@ -116,15 +106,6 @@ export default function Navbar() {
             onClick={() => setOpen(false)}
           >
             Services
-          </Link>
-          <Link
-            href="/projects"
-            className={`hover:text-[#FFDD55] transition ${
-              pathname === "/projects" ? "text-[#FFDD55]" : ""
-            }`}
-            onClick={() => setOpen(false)}
-          >
-            Projects
           </Link>
           <Link
             href="/contact"

@@ -2,6 +2,7 @@ import Link from "next/link";
 import Navbar from "../components/Navbar";
 import HeroText from "../components/HeroText";
 import Logos from "../components/Logos";
+import Grid from "../components/Grid";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaUpwork } from "react-icons/fa6";
@@ -16,9 +17,9 @@ export default function Home() {
 
       {/* Hero Section */}
       <main className="flex-1 flex items-center justify-center mt-12 mb-20">
-        <section className="flex flex-col items-center justify-center px-6 sm:px-10 lg:px-20 gap-12 max-w-6xl w-full mx-auto text-center">
+        <Grid className="flex flex-col items-center justify-center px-6 sm:px-10 lg:px-20 gap-12 max-w-6xl w-full mx-auto text-center">
           {/* Left Side (Text) */}
-          <div className="flex-1 flex flex-col items-center justify-center">
+          <div className="flex-1 flex flex-col items-center justify-center z-10">
             <h2 className="text-6xl font-extrabold text-black leading-snug">
               Hello,
               <br /> I&apos;m Hussein
@@ -26,7 +27,7 @@ export default function Home() {
             <HeroText />
 
             {/* Buttons */}
-            <div className="flex flex-wrap justify-center gap-6 mt-8">
+            <div className="flex flex-wrap justify-center gap-6 mt-8 z-10">
               <Link
                 href="/contact"
                 className="bg-black text-white px-6 py-3 rounded-lg font-bold text-lg sm:text-xl 
@@ -50,7 +51,7 @@ export default function Home() {
             </div>
 
             {/* Social Links */}
-            <div className="mt-8 flex flex-wrap justify-center gap-4">
+            <div className="mt-8 flex flex-wrap justify-center gap-4 z-10">
               <a
                 href="https://www.linkedin.com/in/hussein-elsaeid-445032238/"
                 target="_blank"
@@ -83,7 +84,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-        </section>
+        </Grid>
       </main>
 
       {/* Footer */}
