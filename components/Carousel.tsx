@@ -41,10 +41,10 @@ const Carousel: React.FC = () => {
               flex flex-col items-center justify-start 
               transition duration-300 ease-in-out overflow-hidden scrollbox"
           >
-            <h2 className="text-lg sm:text-xl md:text-2xl font-extrabold mb-3 md:mb-4 text-[#ffdd55] text-center">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-extrabold mb-3 md:mb-4 text-[#c0a63c] text-center">
               Web App Development
             </h2>
-            <div className="overflow-y-auto flex-1 w-full">
+            <div className="overflow-y-auto flex-1 w-full scrollbox p-2">
               <p className="text-left mt-2 md:mt-4 text-sm sm:text-base">
                 I specialize in building modern, high-performance web
                 applications that are scalable, secure, and tailored to your
@@ -65,17 +65,17 @@ const Carousel: React.FC = () => {
         <SwiperSlide aria-label="UI/UX Implementation Service">
           <div
             className="bg-black hover:bg-white text-white hover:text-black 
-              rounded-2xl p-4 sm:p-5 md:p-6 
+              rounded-2xl p-4 sm:p-5 md:p-6
               h-[400px] sm:h-[420px] md:h-[450px] lg:h-[480px] xl:h-[450px]
               mx-2 sm:mx-3 md:mx-4 mb-8 
               shadow-[6px_6px_0px_white] hover:shadow-[6px_6px_0px_black]
               flex flex-col items-center justify-start 
-              transition duration-300 ease-in-out overflow-hidden scrollbox"
+              transition duration-300 ease-in-out overflow-hidden "
           >
-            <h2 className="text-lg sm:text-xl md:text-2xl font-extrabold mb-3 md:mb-4 text-[#ffdd55] text-center">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-extrabold mb-3 md:mb-4 text-[#c0a63c] text-center">
               UI/UX Implementation
             </h2>
-            <div className="overflow-y-auto flex-1 w-full">
+            <div className="overflow-y-auto flex-1 w-full scrollbox p-2">
               <p className="text-left mt-2 md:mt-4 text-sm sm:text-base">
                 I translate creative designs into fully functional, responsive
                 interfaces that deliver seamless user experiences. By combining
@@ -101,10 +101,10 @@ const Carousel: React.FC = () => {
               flex flex-col items-center justify-start 
               transition duration-300 ease-in-out overflow-hidden scrollbox"
           >
-            <h2 className="text-lg sm:text-xl md:text-2xl font-extrabold mb-3 md:mb-4 text-[#ffdd55] text-center">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-extrabold mb-3 md:mb-4 text-[#c0a63c] text-center">
               Performance Optimization
             </h2>
-            <div className="overflow-y-auto flex-1 w-full">
+            <div className="overflow-y-auto flex-1 w-full scrollbox p-2">
               <p className="text-left mt-2 md:mt-4 text-sm sm:text-base">
                 I specialize in front-end performance optimization to ensure
                 your web applications are lightning-fast, responsive, and
@@ -131,10 +131,10 @@ const Carousel: React.FC = () => {
               flex flex-col items-center justify-start 
               transition duration-300 ease-in-out overflow-hidden scrollbox"
           >
-            <h2 className="text-lg sm:text-xl md:text-2xl font-extrabold mb-3 md:mb-4 text-[#ffdd55] text-center">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-extrabold mb-3 md:mb-4 text-[#c0a63c] text-center">
               Responsive Web Design
             </h2>
-            <div className="overflow-y-auto flex-1 w-full">
+            <div className="overflow-y-auto flex-1 w-full scrollbox p-2">
               <p className="text-left mt-2 md:mt-4 text-sm sm:text-base">
                 I create fully responsive web designs that adapt seamlessly to
                 all devices, from desktops and tablets to smartphones. By using
@@ -161,10 +161,10 @@ const Carousel: React.FC = () => {
               flex flex-col items-center justify-start 
               transition duration-300 ease-in-out overflow-hidden scrollbox"
           >
-            <h2 className="text-lg sm:text-xl md:text-2xl font-extrabold mb-3 md:mb-4 text-[#ffdd55] text-center">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-extrabold mb-3 md:mb-4 text-[#c0a63c] text-center">
               API Integration
             </h2>
-            <div className="overflow-y-auto flex-1 w-full">
+            <div className="overflow-y-auto flex-1 w-full scrollbox p-2">
               <p className="text-left mt-2 md:mt-4 text-sm sm:text-base">
                 I specialize in integrating third-party and custom APIs to
                 enhance the functionality of your web applications. By
@@ -192,10 +192,10 @@ const Carousel: React.FC = () => {
               flex flex-col items-center justify-start 
               transition-colors duration-300 overflow-hidden scrollbox"
           >
-            <h2 className="text-lg sm:text-xl md:text-2xl font-extrabold mb-3 md:mb-4 text-[#ffdd55] text-center">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-extrabold mb-3 md:mb-4 text-[#c0a63c] text-center">
               Maintenance & Support
             </h2>
-            <div className="overflow-y-auto flex-1 w-full">
+            <div className="overflow-y-auto flex-1 w-full scrollbox p-2">
               <p className="text-left mt-2 md:mt-4 text-sm sm:text-base">
                 I provide ongoing front-end maintenance and support to ensure
                 your web applications remain fast, reliable, and up-to-date.

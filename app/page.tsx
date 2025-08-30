@@ -1,3 +1,4 @@
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import HeroText from "../components/HeroText";
@@ -22,7 +23,8 @@ export default function Home() {
           <div className="flex-1 flex flex-col items-center justify-center z-10">
             <h2 className="text-6xl font-extrabold text-black leading-snug">
               Hello,
-              <br /> I&apos;m Hussein
+              <br />
+              I&apos;m Hussein
             </h2>
             <HeroText />
 

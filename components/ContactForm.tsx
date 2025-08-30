@@ -31,12 +31,10 @@ export default function ContactForm() {
       )
       .then(
         () => {
-          alert("✅ Message sent successfully!");
           form.reset();
         },
         (error) => {
           console.error(error);
-          alert("⚠️ Failed to send message.");
         }
       )
       .finally(() => setLoading(false));
@@ -51,29 +49,29 @@ export default function ContactForm() {
         type="text"
         name="name"
         placeholder="Your Name"
-        className="p-2 border rounded"
+        className="p-2 border rounded-lg border-[#FFDD55]"
         required
       />
       <input
         type="email"
         name="email"
         placeholder="Your Email"
-        className="p-2 border rounded"
+        className="p-2 border border-[#FFDD55] rounded-lg"
         required
       />
       <textarea
         name="message"
         placeholder="Your Message"
-        className="p-2 border rounded border-[#FFDD55]"
+        className="focus:border-[#FFDD55] p-2 border-2 border-solid rounded-lg border-[#FFDD55] h-30 resize-none overflow-auto scrollbox"
         required
       ></textarea>
 
       <button
         type="submit"
-        className="bg-blue-500 text-white p-2  rounded disabled:opacity-50"
+        className="bg-[#FFDD55] hover:bg-[#edce4e] xl:mt-8 text-black p-2 text-bold rounded-lg disabled:cursor-not-allowed  cursor-pointer"
         disabled={loading}
       >
-        {loading ? "Sending..." : "Send"}
+        {loading ? "Sending..." : "Send Message"}
       </button>
     </form>
   );

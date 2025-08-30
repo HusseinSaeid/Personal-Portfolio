@@ -67,7 +67,7 @@ export default function Logos() {
   ];
 
   return (
-    <footer className="bg-black  px-8 py-4 hidden xl:block">
+    <footer className="bg-black  px-8 py-4 xl:block">
       <div className="">
         <LogoLoop
           logos={logos}

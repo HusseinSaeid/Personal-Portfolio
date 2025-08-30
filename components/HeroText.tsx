@@ -5,14 +5,13 @@ import Typewriter from "typewriter-effect";
 export default function HeroText() {
   return (
     <div className="text-2xl font-bold flex gap-2 text-black">
-      <span>a</span>
       <Typewriter
         options={{
           strings: [
-            "Frontend Developer",
-            "JavaScript Developer",
-            "Next.js Specialist",
-            "Continuous Learner",
+            "a Frontend Developer",
+            "a JavaScript Developer",
+            "a Next.js Specialist",
+            "a Continuous Learner",
           ],
           autoStart: true,
           loop: true,
