@@ -1,6 +1,5 @@
 import Link from "next/link";
 import HeroText from "../components/HeroText";
-import Logos from "../components/Logos";
 import Grid from "../components/Grid";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
