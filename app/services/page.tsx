@@ -1,14 +1,10 @@
-import Navbar from "../../components/Navbar";
 import Carousel from "@/components/Carousel";
 import Link from "next/link";
 export default function Services() {
   return (
-    <div className="bg-[#FFDD55] min-h-screen w-screen p-4 ">
-      <header>
-        <Navbar />
-      </header>
+    <div className="bg-[#FFDD55]">
       <main>
-        <div className="flex flex-col xl:flex-row items-center justify-center gap-4 xl:gap-64 mt-20">
+        <div className="flex flex-col xl:flex-row items-center justify-center gap-4 xl:gap-64 mt-14 ">
           <h1 className="text-2xl xl:text-4xl font-extrabold">
             Transforming Your Vision To <br /> Powerful Web Solutions
           </h1>

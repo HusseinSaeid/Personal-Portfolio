@@ -1,4 +1,3 @@
-import Navbar from "../../components/Navbar";
 import ContactForm from "../../components/ContactForm";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMailSharp, IoLocationOutline } from "react-icons/io5";
@@ -7,13 +6,8 @@ import { FaUpwork } from "react-icons/fa6";
 
 export default function Contact() {
   return (
-    <div className="bg-[#FFDD55] min-h-screen w-full flex flex-col">
-      {/* Header */}
-      <header className="p-4">
-        <Navbar />
-      </header>
-
-      <div className="mt-12 flex flex-col items-center justify-center gap-6 px-4 sm:px-8">
+    <div className="bg-[#FFDD55] flex flex-col py-14 xl:py-0">
+      <div className="mb-12 flex flex-col items-center justify-center gap-6 px-4 sm:px-8">
         <h1 className="text-4xl sm:text-5xl font-bold text-center">
           Get In Touch
         </h1>

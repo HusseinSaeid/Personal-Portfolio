@@ -1,6 +1,4 @@
-import dynamic from "next/dynamic";
 import Link from "next/link";
-import Navbar from "../components/Navbar";
 import HeroText from "../components/HeroText";
 import Logos from "../components/Logos";
 import Grid from "../components/Grid";
@@ -10,11 +8,8 @@ import { FaUpwork } from "react-icons/fa6";
 
 export default function Home() {
   return (
-    <div className="bg-[#FFDD55] min-h-screen w-screen flex flex-col">
+    <div className=" flex flex-col bg-[#FFDD55] mt-12">
       {/* Header */}
-      <header className="p-4">
-        <Navbar />
-      </header>
 
       {/* Hero Section */}
       <main className="flex-1 flex items-center justify-center mt-12 mb-20">
@@ -88,9 +83,6 @@ export default function Home() {
           </div>
         </Grid>
       </main>
-
-      {/* Footer */}
-      <Logos />
     </div>
   );
 }
