@@ -35,7 +35,7 @@ const Carousel: React.FC = () => {
           <div
             className="bg-black hover:bg-white text-white hover:text-black 
               rounded-2xl p-4 sm:p-5 md:p-6 
-              h-[400px] sm:h-[420px] md:h-[450px] lg:h-[450px] xl:h-[450px]
+              h-[400px] sm:h-[420px] md:h-[450px] lg:h-[480px] xl:h-[450px]
               mx-2 sm:mx-3 md:mx-4 mb-8 
               shadow-[6px_6px_0px_white] hover:shadow-[6px_6px_0px_black]
               flex flex-col items-center justify-start 

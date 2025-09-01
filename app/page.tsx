@@ -52,6 +52,7 @@ export default function Home() {
                 href="https://www.linkedin.com/in/hussein-elsaeid-445032238/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="LinkedIn Profile"
                 className="text-2xl sm:text-3xl flex items-center justify-center bg-black text-white w-12 h-12 rounded-lg shadow-[4px_4px_0px_white]
               hover:bg-white hover:text-black hover:shadow-[6px_6px_0px_black] 
                 transition duration-300 ease-in-out"
@@ -62,6 +63,7 @@ export default function Home() {
                 href="https://github.com/HusseinSaeid"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="GitHub Profile"
                 className="text-2xl sm:text-3xl flex items-center justify-center bg-black text-white w-12 h-12 rounded-lg shadow-[4px_4px_0px_white]
               hover:bg-white hover:text-black hover:shadow-[6px_6px_0px_black] 
                 transition duration-300 ease-in-out"
@@ -72,6 +74,7 @@ export default function Home() {
                 href="https://www.upwork.com/freelancers/~01f2c2e3af3fc6dd96"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Upwork Profile"
                 className="text-2xl sm:text-3xl flex items-center justify-center bg-black text-white w-12 h-12 rounded-lg shadow-[4px_4px_0px_white]
               hover:bg-white hover:text-black hover:shadow-[6px_6px_0px_black] 
                 transition duration-300 ease-in-out"
