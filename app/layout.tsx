@@ -18,7 +18,7 @@ export default function RootLayout({
       <body>
         <div className="bg-[#FFDD55] min-h-screen w-screen flex flex-col">
           {/* Header */}
-          <header className="p-6  ">
+          <header className="p-4  ">
             <Navbar />
           </header>
 

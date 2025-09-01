@@ -13,8 +13,8 @@ import { SiCplusplus } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
 export default function About() {
   return (
-    <div className="bg-[#FFDD55] p-4 xl:p-0 py-20">
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-6 justify-center items-start mt-12 max-w-6xl mx-auto">
+    <div className="bg-[#FFDD55] p-4 xl:p-0 py-20 ">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-6 justify-center items-start mt-12 max-w-6xl mx-auto ">
         {/* About Me Card */}
         <div className="relative md:col-span-2 shadow-[6px_6px_0px_white] bg-black rounded-2xl overflow-hidden">
           <div className="p-8 md:p-12  index-1 lg:p-16 xl:max-h-[40vh]  overflow-y-auto scrollbox">
