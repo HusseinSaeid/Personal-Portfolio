@@ -68,7 +68,7 @@ export default function Projects() {
       ],
       category: "frontend",
       githubUrl: "https://github.com/HusseinSaeid/fasterui",
-      liveUrl: "https://fasterui-lemon.vercel.app/Q",
+      liveUrl: "https://fasterui-lemon.vercel.app/",
       imageUrl: "/fasterui.png",
     },
   ];
