@@ -51,7 +51,7 @@ export default function Projects() {
       ],
       category: "frontend",
       githubUrl: "https://github.com/HusseinSaeid/Personal-Portfolio",
-      liveUrl: "https://portfolio-demo.com",
+      liveUrl: "https://husseinsaeid.vercel.app/",
       imageUrl: "/portfolio.png",
     },
     {
