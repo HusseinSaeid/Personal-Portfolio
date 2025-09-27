@@ -67,8 +67,8 @@ export default function Projects() {
         "Shadcn/Ui",
       ],
       category: "frontend",
-      githubUrl: "https://github.com/username/task-management",
-      liveUrl: "https://taskmanager-demo.com",
+      githubUrl: "https://github.com/HusseinSaeid/fasterui",
+      liveUrl: "https://fasterui-lemon.vercel.app/Q",
       imageUrl: "/fasterui.png",
     },
   ];
