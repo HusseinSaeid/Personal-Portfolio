@@ -93,7 +93,7 @@ export default function Navbar() {
       </Link>
 
       {/* Desktop Links */}
-      <div className="hidden md:block relative mr-6">
+      <div className="hidden lg:block relative mr-6">
         <ul ref={navRef} className="flex gap-8 text-white text-3xl">
           {links.map((link) => (
             <li key={link.href}>
@@ -127,7 +127,7 @@ export default function Navbar() {
       <button
         aria-label={open ? "Close Menu" : "Open Menu"}
         aria-expanded={open}
-        className="md:hidden text-white text-3xl  rounded p-2 hover:bg-white hover:bg-opacity-10 transition-colors duration-200"
+        className="lg:hidden text-white text-3xl  rounded p-2 hover:bg-white hover:bg-opacity-10 transition-colors duration-200"
         onClick={() => setOpen(!open)}
       >
         <motion.div
@@ -146,7 +146,7 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -10, scale: 0.95 }}
             transition={{ duration: 0.2 }}
-            className="absolute top-20 right-4 bg-black text-white rounded-lg shadow-[6px_6px_0px_white] flex flex-col items-start p-4 space-y-2 md:hidden z-50 min-w-[160px]"
+            className="absolute top-20 right-4 bg-black text-white rounded-lg shadow-[6px_6px_0px_white] flex flex-col items-start p-4 space-y-2 lg:hidden z-50 min-w-[160px]"
           >
             {links.map((link, index) => (
               <motion.div
