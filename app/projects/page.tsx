@@ -71,6 +71,39 @@ export default function Projects() {
       liveUrl: "https://fasterui-lemon.vercel.app/",
       imageUrl: "/fasterui.png",
     },
+    {
+      id: 4,
+      title: "ChatBot",
+      description:
+        "A fun and interactive chatbot powered by Google Gemini API. You can chat with multiple AI personalities such as Pirate, Ninja, Wizard, Robot, and more — each responding with a unique tone and style!.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Tailwind CSS",
+        "Google Gemini API",
+      ],
+      category: "fullstack",
+      githubUrl: "https://github.com/HusseinSaeid/chatbot",
+      liveUrl: "https://chatbot-306.vercel.app/",
+      imageUrl: "/chatbot.png",
+    },
+    {
+      id: 5,
+      title: "Bentolio",
+      description:
+        "A minimal and elegant personal portfolio Features a Bento grid layout for showcasing your work in both light and dark mode.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Tailwind CSS",
+        "React Bits",
+        "Framer Motion",
+      ],
+      category: "frontend",
+      githubUrl: "https://github.com/HusseinSaeid/bentolio",
+      liveUrl: "https://bentolio-portfoilo.vercel.app/",
+      imageUrl: "/bentolio.png",
+    },
   ];
 
   const filteredProjects = projects.filter(
